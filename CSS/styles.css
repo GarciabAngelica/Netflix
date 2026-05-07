@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -104,16 +103,7 @@ body{
 .btn-netflix:hover{
     background-color: #b20710;
     color: white;
-}x||
-=======
-body{
-    background-color: #141414;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 40px;
-    color: white;
 }
-
 .card-deck{
     display: flex;
     gap: 20px;
@@ -178,4 +168,3 @@ body{
 main{
     margin-top: 40px;
 }
->>>>>>> refs/remotes/origin/main
