@@ -1,3 +1,12 @@
 # Netflix
-Se va a crear un clon de Netflix
-Brayan creo su rama
+### Se clono la plataforma de Netflix 
+###Se usaron componentes como: Navbar, dropdown, card
+- Brayan 
+- Angélica
+- Erick
+- Ivonne 
+- Aura
+- Jafet
+- Jair 
+- Andrea
+- Andriy
