@@ -1,0 +1,69 @@
+body{
+    background-color: #141414;
+}
+/* NAVBAR */
+.navbar{
+    background-color: #000 !important;
+    padding: 15px;
+}
+.navbar-brand{
+    color: #e50914 !important;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.nav-link{
+    color: white !important;
+    transition: 0.3s;
+}
+.nav-link:hover{
+    color: #e50914 !important;
+}
+/* BOTON MENU */
+.navbar-toggler{
+    border: 1px solid #e50914;
+}
+.navbar-toggler-icon{
+    filter: invert(1);
+}
+/* MENU OFFCANVAS */
+.offcanvas{
+    background-color: #111;
+    color: white;
+}
+.offcanvas-title{
+    color: #e50914;
+    font-weight: bold;
+}
+.dropdown-menu{
+    background-color: #222;
+}
+.dropdown-item{
+    color: white;
+}
+.dropdown-item:hover{
+    background-color: #e50914;
+    color: white;
+}
+/* SEARCH */
+.form-control{
+    background-color: #222;
+    border: none;
+    color: white;
+}
+.form-control::placeholder{
+    color: #aaa;
+}
+.form-control:focus{
+    background-color: #333;
+    color: white;
+    box-shadow: none;
+}
+.btn-netflix{
+    background-color: #e50914;
+    color: white;
+    border: none;
+}
+.btn-netflix:hover{
+    background-color: #b20710;
+}
