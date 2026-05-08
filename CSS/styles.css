@@ -168,3 +168,111 @@ body{
 main{
     margin-top: 40px;
 }
+
+/* ===== FOOTER ESTILO NETFLIX ===== */
+
+footer {
+    background-color: #000;
+    color: #b3b3b3;
+    padding: 60px 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 1px solid #222;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Texto principal */
+.footer-contact {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #b3b3b3;
+}
+
+/* Links */
+.footer-links ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 40px 0;
+}
+
+.footer-links li {
+    list-style: none;
+}
+
+.footer-links a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+/* Hover estilo Netflix */
+.footer-links a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Botón idioma */
+.btn-language {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #666;
+    padding: 12px 22px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    margin-bottom: 25px;
+}
+
+/* Hover botón */
+.btn-language:hover {
+    background-color: #111;
+    border-color: #fff;
+}
+
+/* País */
+.footer-country {
+    font-size: 14px;
+    color: #808080;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 768px) {
+    
+    footer {
+        padding: 50px 7%;
+    }
+
+    .footer-links ul {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px 20px;
+    }
+
+    .footer-contact {
+        font-size: 15px;
+    }
+
+    .btn-language {
+        width: 100%;
+        max-width: 220px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .footer-links ul {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-links a {
+        font-size: 13px;
+    }
+}
